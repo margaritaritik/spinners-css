@@ -1,6 +1,6 @@
 .container{
   position: relative;
-  background-color: rebeccapurple;
+  background-color: #d9bdf1;
   width: 100px;
   height: 100px;
 
@@ -10,11 +10,11 @@
   position: absolute;
   top: 80%;
   left: 0%;
-
   background-color: greenyellow;
   width:90%;
   height: 10px;
   border-radius: 10px;
+
 }
 
 .page{
@@ -24,6 +24,7 @@
   width:40%;
   height: 5px;
   background-color: #9147ff;
+
 }
 
 .page:before{
@@ -33,17 +34,48 @@
   right: -110%;
   width:100%;
   height: 5px;
+  transform-origin: left;
+
   background-color: #9147ff;
+  /*border-bottom-left-radius: 20px;*/
+  /*transform: ;*/
+  /*transform: scale3d(5,5,5);*/
+  animation: bookList 2s linear;
+  transition: all 2s linear 0s;
+  animation-iteration-count: infinite;
+  /*border: solid 5px #000;*/
+  /*border-color: #000 transparent transparent transparent;*/
+  border-radius: 50%/5px 5px 0 0;
 }
+
+/*.page:after{*/
+/*  content: "";*/
+/*  position:absolute;*/
+/*  top: 0px;*/
+/*  right: -110%;*/
+/*  width:100%;*/
+/*  height: 5px;*/
+/*  rotate:9deg;*/
+/*  background-color: #7b00ff;*/
+/*}*/
 
 @keyframes bookList {
   0%{
 
   }
+  10%{
+    top:-15px;
+  }
   50%{
 
   }
+  70%{
+    /*transform: translate(0px,15px);*/
+
+  }
   100%{
+    rotate: -180deg;
+
 
   }
 }
