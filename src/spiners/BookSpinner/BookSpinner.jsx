@@ -5,6 +5,9 @@ const BookSpinner = () => {
     return (
         <div className={styles.container}>
             <div className={styles.page}></div>
+            <div className={styles.page}></div>
+            <div className={styles.page}></div>
+            <div className={styles.page}></div>
             <div className={styles.binder}></div>
         </div>
     );
