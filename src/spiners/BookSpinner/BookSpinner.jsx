@@ -8,7 +8,11 @@ const BookSpinner = () => {
             <div className={styles.page}></div>
             <div className={styles.page}></div>
             <div className={styles.page}></div>
+            <div className={styles.page}></div>
+            <div className={styles.page}></div>
+
             <div className={styles.binder}></div>
+
         </div>
     );
 };
