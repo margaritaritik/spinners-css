@@ -34,7 +34,9 @@
   left: 3%;
   width:40%;
   height: 5px;
-  background-color: #9147ff;
+  background-color: #000000;
+  border-width: 20px;
+  box-shadow: black;
 }
 .container .page:nth-child(6){
   position: absolute;
@@ -42,7 +44,9 @@
   right: 3%;
   width:35%;
   height: 5px;
-  background-color: #9147ff;
+  background-color: #fffdfd;
+  border-width: 20px;
+  box-shadow: black;
 }
 
 .container .page:nth-child(2){
