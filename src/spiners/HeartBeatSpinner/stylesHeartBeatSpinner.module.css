@@ -23,7 +23,6 @@
     transition: all 10ms linear 0s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-
 }
 .heart::before,
 .heart::after {
@@ -46,13 +45,12 @@
 
 @keyframes heartbeat {
     0%{
-        transform-origin: center;
+        transform: scale(0.3,0.3);
     }
     50%{
 
     }
     100%{
-        transform-origin: -10px;
-        transform: scale(-1,1);
+        transform: scale(1,1);
     }
 }
